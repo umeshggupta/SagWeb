@@ -32,6 +32,7 @@ ul{list-style:none;margin:0;padding:0;}
 .header-section .menu ul li{display:inline-block;vertical-align:middle;margin:0 15px;}
 .header-section .menu ul li a{display:block;text-transform:uppercase;font-weight:700;color:#fff;}
 .header-section .menu ul li a:hover,.header-section .menu ul li a:focus{color:#FFF;}
+.header-section .ribbon-colum {max-width: 350px;}
 
 /*------Header Section CSS End------ */
 
@@ -151,6 +152,10 @@ ul{list-style:none;margin:0;padding:0;}
     h3{font-size:20px;}
     .about-us-section h4{font-size:18px;}
     .about-us-section .superior-animal-genetics p{font-size:16px;}
+    .header-section .ribbon-colum {max-width: 160px;}
+}
+@media only screen and (max-width:540px){
+   .header-section .ribbon-colum {display: none;}
 }
 @media only screen and (max-width:414px){
     .header-section .logo{max-width:115px;}
