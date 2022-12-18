@@ -1,111 +1,112 @@
-@font-face { font-family: 'Open Sans Regular'; src: url('../fonts/OpenSans.eot'); src: url('../fonts/OpenSans.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans.woff2') format('woff2'), url('../fonts/OpenSans.woff') format('woff'), url('../fonts/OpenSans.ttf') format('truetype'); font-weight: normal; font-style: normal; font-display: swap; }
-@font-face { font-family: 'Open Sans Semibold'; src: url('../fonts/OpenSans-Semibold.eot'); src: url('../fonts/OpenSans-Semibold.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans-Semibold.woff2') format('woff2'), url('../fonts/OpenSans-Semibold.woff') format('woff'), url('../fonts/OpenSans-Semibold.ttf') format('truetype'); font-weight: 600; font-style: normal; font-display: swap; }
-@font-face { font-family: 'Open Sans Bold'; src: url('../fonts/OpenSans-Bold.eot'); src: url('../fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/OpenSans-Bold.woff2') format('woff2'), url('../fonts/OpenSans-Bold.woff') format('woff'), url('../fonts/OpenSans-Bold.ttf') format('truetype'); font-weight: bold; font-style: normal; font-display: swap; }
-@font-face { font-family: 'Montserrat Bold'; src: url('../fonts/Montserrat-Bold.eot'); src: url('../fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Montserrat-Bold.woff2') format('woff2'), url('../fonts/Montserrat-Bold.woff') format('woff'), url('../fonts/Montserrat-Bold.ttf') format('truetype'); font-weight: bold; font-style: normal; font-display: swap; }
-@font-face { font-family: 'Montserrat Regular'; src: url('../fonts/Montserrat-Regular.eot'); src: url('../fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Montserrat-Regular.woff2') format('woff2'), url('../fonts/Montserrat-Regular.woff') format('woff'), url('../fonts/Montserrat-Regular.ttf') format('truetype'); font-weight: normal; font-style: normal; font-display: swap; }
-* { margin: 0; padding: 0; -webkit-box-sizing: border-box; box-sizing: border-box; }
+@font-face{font-family:'Open Sans Regular';src:url('../fonts/OpenSans.eot');src:url('../fonts/OpenSans.eot?#iefix') format('embedded-opentype'),url('../fonts/OpenSans.woff2') format('woff2'),url('../fonts/OpenSans.woff') format('woff'),url('../fonts/OpenSans.ttf') format('truetype');font-weight:normal;font-style:normal;font-display:swap;}
+@font-face{font-family:'Open Sans Semibold';src:url('../fonts/OpenSans-Semibold.eot');src:url('../fonts/OpenSans-Semibold.eot?#iefix') format('embedded-opentype'),url('../fonts/OpenSans-Semibold.woff2') format('woff2'),url('../fonts/OpenSans-Semibold.woff') format('woff'),url('../fonts/OpenSans-Semibold.ttf') format('truetype');font-weight:600;font-style:normal;font-display:swap;}
+@font-face{font-family:'Open Sans Bold';src:url('../fonts/OpenSans-Bold.eot');src:url('../fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),url('../fonts/OpenSans-Bold.woff2') format('woff2'),url('../fonts/OpenSans-Bold.woff') format('woff'),url('../fonts/OpenSans-Bold.ttf') format('truetype');font-weight:bold;font-style:normal;font-display:swap;}
+@font-face{font-family:'Montserrat Bold';src:url('../fonts/Montserrat-Bold.eot');src:url('../fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),url('../fonts/Montserrat-Bold.woff2') format('woff2'),url('../fonts/Montserrat-Bold.woff') format('woff'),url('../fonts/Montserrat-Bold.ttf') format('truetype');font-weight:bold;font-style:normal;font-display:swap;}
+@font-face{font-family:'Montserrat Regular';src:url('../fonts/Montserrat-Regular.eot');src:url('../fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),url('../fonts/Montserrat-Regular.woff2') format('woff2'),url('../fonts/Montserrat-Regular.woff') format('woff'),url('../fonts/Montserrat-Regular.ttf') format('truetype');font-weight:normal;font-style:normal;font-display:swap;}
+*{margin:0;padding:0;-webkit-box-sizing:border-box;box-sizing:border-box;}
 
 /* html { scroll-behavior: smooth; } */
-body { font-family: 'Open Sans Regular'; font-size: 16px; line-height: 1.5; color: #000; font-weight: 400; }
-h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat Bold'; font-weight: bold;  }
-h2 { font-size: 40px;margin-bottom: 40px; }
-h3 {font-size: 26px; margin-bottom: 15px;}
-p { font-family: 'Open Sans Regular'; font-weight: 400; color: #000; margin-bottom: 15px;}
-img { max-width: 100%; vertical-align: middle; }
-a, a:hover, a:focus { text-decoration: none; color: #000; }
-a:hover { color: #0d8744; }
-svg:not(:root) {overflow: hidden;}
-ul { list-style: none; margin: 0; padding: 0; }
-.row {display:-webkit-box;display:-ms-flexbox;display:flex; -ms-flex-wrap: wrap;flex-wrap: wrap;}
-.text-center { text-align: center; }
-.common-spacing { padding: 50px 0; }
-.common-transition { -webkit-transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; }
-.container { max-width: 1280px; margin: 0 auto; padding: 0 15px; }
-
-
+body{font-family:'Open Sans Regular';font-size:16px;line-height:1.5;color:#000;font-weight:400;}
+h1,h2,h3,h4,h5,h6{font-family:'Montserrat Bold';font-weight:bold;}
+h2{font-size:40px;margin-bottom:40px;}
+h3{font-size:26px;margin-bottom:15px;}
+p{font-family:'Open Sans Regular';font-weight:400;color:#000;margin-bottom:15px;}
+img{max-width:100%;vertical-align:middle;}
+a,a:hover,a:focus{text-decoration:none;color:#000;}
+a:hover{color:#0d8744;}
+svg:not(:root){overflow:hidden;}
+ul{list-style:none;margin:0;padding:0;}
+.row{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;}
+.text-center{text-align:center;}
+.common-spacing{padding:50px 0;}
+.common-transition{-webkit-transition:all 0.5s ease-in-out;-moz-transition:all 0.5s ease-in-out;-ms-transition:all 0.5s ease-in-out;-o-transition:all 0.5s ease-in-out;transition:all 0.5s ease-in-out;}
+.container{max-width:1280px;margin:0 auto;padding:0 15px;}
 
 /*------Header Section CSS Start------ */
-.header-section {position: fixed; top: 0; right: 0; left: 0; background-color: #fff; z-index: 9999; border-bottom: 1px solid #e5e5e5; }
-.header-section .header-row {padding: 10px 0; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
-.header-section .logo {display: block; }
-.header-section .header-row .logo-nddb-colum {-webkit-box-align: center; -ms-flex-align: center; align-items: center;}
-.header-nav {background-color: #0d8744; padding: 10px 0;}
-.header-section .menu ul {text-align: center;}
-.header-section .menu ul li { display: inline-block; vertical-align: middle; margin: 0 15px; }
-.header-section .menu ul li a { display: block; text-transform: uppercase; font-weight: 700; color: #fff; }
-.header-section .menu ul li a:hover, .header-section .menu ul li a:focus { color: #FFF; }
+.header-section{position:fixed;top:0;right:0;left:0;background-color:#fff;z-index:9999;border-bottom:1px solid #e5e5e5;}
+.header-section .header-row{padding:10px 0;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+.header-section .logo{display:block;}
+.header-section .header-row .logo-nddb-colum{-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+.header-nav{background-color:#0d8744;padding:10px 0;}
+.header-section .menu ul{text-align:center;}
+.header-section .menu ul li{display:inline-block;vertical-align:middle;margin:0 15px;}
+.header-section .menu ul li a{display:block;text-transform:uppercase;font-weight:700;color:#fff;}
+.header-section .menu ul li a:hover,.header-section .menu ul li a:focus{color:#FFF;}
 
 /*------Header Section CSS End------ */
 
 /*Menu Close Icon css Start*/
-.m-menu-btn { cursor: pointer; display: none; height: 34px; width: 30px; position: relative; margin-left: 20px; }
-.m-menu-btn span { display: block; position: absolute; height: 4px; width: 100%; background: #0d8744; border-radius: 9px; opacity: 1; left: 0; -webkit-transform: rotate(0deg); -moz-transform: rotate(0deg); -o-transform: rotate(0deg); transform: rotate(0deg); -webkit-transition: .25s ease-in-out; -moz-transition: .25s ease-in-out; -o-transition: .25s ease-in-out; transition: .25s ease-in-out; }
-.m-menu-btn span:nth-child(1) { top: 5px; }
-.m-menu-btn span:nth-child(2), .m-menu-btn span:nth-child(3) { top: 15px; }
-.m-menu-btn span:nth-child(4) { top: 24px; }
-.m-menu-btn.m-menu-btn-ext span:nth-child(1) { top: 15px; width: 0%; left: 50%; }
-.m-menu-btn.m-menu-btn-ext span:nth-child(2) { -webkit-transform: rotate(45deg); -moz-transform: rotate(45deg); -o-transform: rotate(45deg); transform: rotate(45deg); }
-.m-menu-btn.m-menu-btn-ext span:nth-child(3) { -webkit-transform: rotate(-45deg); -moz-transform: rotate(-45deg); -o-transform: rotate(-45deg); transform: rotate(-45deg); }
-.m-menu-btn.m-menu-btn-ext span:nth-child(4) { top: 18px; width: 0%; left: 50%; }
+.m-menu-btn{cursor:pointer;display:none;height:34px;width:30px;position:relative;margin-left:20px;}
+.m-menu-btn span{display:block;position:absolute;height:4px;width:100%;background:#0d8744;border-radius:9px;opacity:1;left:0;-webkit-transform:rotate(0deg);-moz-transform:rotate(0deg);-o-transform:rotate(0deg);transform:rotate(0deg);-webkit-transition:.25s ease-in-out;-moz-transition:.25s ease-in-out;-o-transition:.25s ease-in-out;transition:.25s ease-in-out;}
+.m-menu-btn span:nth-child(1){top:5px;}
+.m-menu-btn span:nth-child(2),.m-menu-btn span:nth-child(3){top:15px;}
+.m-menu-btn span:nth-child(4){top:24px;}
+.m-menu-btn.m-menu-btn-ext span:nth-child(1){top:15px;width:0%;left:50%;}
+.m-menu-btn.m-menu-btn-ext span:nth-child(2){-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-o-transform:rotate(45deg);transform:rotate(45deg);}
+.m-menu-btn.m-menu-btn-ext span:nth-child(3){-webkit-transform:rotate(-45deg);-moz-transform:rotate(-45deg);-o-transform:rotate(-45deg);transform:rotate(-45deg);}
+.m-menu-btn.m-menu-btn-ext span:nth-child(4){top:18px;width:0%;left:50%;}
 
 /*Menu Close Icon css End*/
 
 /* Hero section css Start */
-.hero-section .hero-slider {margin-bottom: 0;}
+.hero-section .hero-slider{margin-bottom:0;}
 .hero-section .hero-img{height:500px;}
 .hero-section .hero-img > img{height:100%;width:100%;object-fit:cover;}
 .hero-section .hero-content{position:absolute;width:90%;max-width:1280px;padding:0 15px;text-align:center;left:50%;top:50%;-moz-transform:translateX(-50%) translateY(-50%);-webkit-transform:translateX(-50%) translateY(-50%);-o-transform:translateX(-50%) translateY(-50%);-ms-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);}
-.hero-section .hero-content .content {text-align: left; max-width: 600px;}
+.hero-section .hero-content .content{text-align:left;max-width:600px;}
 .hero-section .hero-content h1{font-size:50px;color:#000;font-weight:700;line-height:60px;margin-bottom:15px;}
-.hero-section .hero-content p{font-size:20px;color:#000; font-weight: 600;}
+.hero-section .hero-content p{font-size:20px;color:#000;font-weight:600;}
 .slick-initialized .slick-slide,.slick-list{position:relative;}
 .hero-section .slick-dots{bottom:25px;}
 .hero-section .slick-dots li button:before{font-size:40px;color:#fff;opacity:1;}
 .hero-section .slick-dots li.slick-active button:before{opacity:1;color:#0d8744;}
-.hero-section .slick-next{right:50px;background-image:url(../image/arrow-next.png);background-repeat:no-repeat;width:23px;height:44px;background-size: contain;}
-.hero-section .slick-prev{left:50px;background-image:url(../image/arrow-prew.png);background-repeat:no-repeat;width:23px;height:44px;z-index:1;background-size: contain;}
+.hero-section .slick-next{right:50px;background-image:url(../image/arrow-next.png);background-repeat:no-repeat;width:23px;height:44px;background-size:contain;}
+.hero-section .slick-prev{left:50px;background-image:url(../image/arrow-prew.png);background-repeat:no-repeat;width:23px;height:44px;z-index:1;background-size:contain;}
 .slick-prev::before,.slick-next::before{display:none;}
 
 /* Hero section css End */
 
 /* Sag Semen section css Start */
-.sag-semen-stations-section .row {margin-left: -15px; margin-right: -15px;}
-.sag-semen-stations-section .colum{width:25%; padding: 15px;}
-.sag-semen-stations-section .colum .location-img{width:100%;margin-bottom: 15px;position: relative; padding-bottom: 56%;overflow: hidden;}
-.sag-semen-stations-section .colum .location-img img {height: 100%;width: 100%; position: absolute; left: 0;right: 0;top: 0;bottom: 0; }
-.sag-semen-stations-section .colum:hover img {-moz-transform: scale(1.1);-webkit-transform: scale(1.1);-o-transform: scale(1.1);-ms-transform: scale(1.1);transform: scale(1.1);}
+.sag-semen-stations-section .row{margin-left:-15px;margin-right:-15px;}
+.sag-semen-stations-section .colum{width:25%;padding:15px;}
+.sag-semen-stations-section .colum .location-img{width:100%;margin-bottom:15px;position:relative;padding-bottom:56%;overflow:hidden;}
+.sag-semen-stations-section .colum .location-img img{height:100%;width:100%;position:absolute;left:0;right:0;top:0;bottom:0;}
+.sag-semen-stations-section .colum:hover img{-moz-transform:scale(1.1);-webkit-transform:scale(1.1);-o-transform:scale(1.1);-ms-transform:scale(1.1);transform:scale(1.1);}
 .sag-semen-stations-section .colum strong{color:#000;font-size:22px;display:block;margin-top:10px;font-weight:600;}
 .sag-semen-stations-section .colum:hover strong{color:#0d8744;}
 
 /* Sag Semen section css End */
 
 /* About Us section css Start */
-.about-us-section {background-color: #f6f6f6;}
-.about-us-section .superior-animal-genetics {margin-bottom: 20px;}
-.about-us-section .superior-animal-genetics p {padding: 15px; background-color: #0d8744; color: #fff; font-weight: 600; font-size: 18px; border-radius: 4px; margin: 0;}
-.about-us-section .about-content {background-color: #FFFFFF; padding: 25px;}
-.about-us-section h4 {font-style: italic; font-size: 20px;}
-.about-us-section ul {list-style: disc; padding-left: 20px; margin: 15px 0 15px 15px;}
+.about-us-section{background-color:#f6f6f6;}
+.about-us-section .superior-animal-genetics{margin-bottom:20px;}
+.about-us-section .superior-animal-genetics p{padding:15px;background-color:#0d8744;color:#fff;font-weight:600;font-size:18px;border-radius:4px;margin:0;}
+.about-us-section .about-content{background-color:#FFFFFF;padding:25px;}
+.about-us-section h4{font-style:italic;font-size:20px;}
+.about-us-section ul{list-style:disc;padding-left:20px;margin:15px 0 15px 15px;}
+
 /* About Us section css Start */
 
 /* How We Are Unique Section css Start */
-.how-we-are-unique {padding-top: 50px;}
-.how-we-are-unique .row {-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
-.how-we-are-unique .row .img {width: 60%; padding-right: 20px;}
-.how-we-are-unique .row .content {width: 40%;}
+.how-we-are-unique{padding-top:50px;}
+.how-we-are-unique .row{-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
+.how-we-are-unique .row .img{width:60%;padding-right:20px;}
+.how-we-are-unique .row .content{width:40%;}
+
 /* How We Are Unique Section css Start */
 
 /* Our Locations section css Start */
-.our-locations-section {background-color: #fffdf6;}
-.our-locations-section span {font-weight: 600; text-transform: uppercase; }
+.our-locations-section{background-color:#fffdf6;}
+.our-locations-section span{font-weight:600;text-transform:uppercase;}
+
 /* Our Locations section css End */
 
 /* Footer section css Start */
-.footer-section{border-top:1px solid #f1d7d7;padding:25px 0; background-color: #f1e9e9;}
+.footer-section{border-top:1px solid #f1d7d7;padding:25px 0;background-color:#f1e9e9;}
 .footer-section .row{-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
 .footer-section .row .colum .follow-us-link{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
-.footer-section .follow-us-link span {font-weight: 700; margin-right: 10px;}
-.footer-section .follow-us-link img{display:block;width: 30px; height: 30px;}
+.footer-section .follow-us-link span{font-weight:700;margin-right:10px;}
+.footer-section .follow-us-link img{display:block;width:30px;height:30px;}
 .footer-section .follow-us-link li{display:inline-block;vertical-align:middle;}
 .footer-section .follow-us-link li:not(:last-child){margin-right:5px;}
 .footer-nav li{display:inline-block;position:relative;line-height:24px;}
@@ -114,85 +115,43 @@ ul { list-style: none; margin: 0; padding: 0; }
 .footer-nav li:not(:last-child)::before{content:"";width:2px;background-color:#000;position:absolute;right:-3px;top:5px;bottom:5px;}
 .footer-nav li a{color:#000;font-weight:600;}
 .footer-nav li a:hover{color:#0d8744;}
-.footer-section p{margin:0; font-weight: 600;}
+.footer-section p{margin:0;font-weight:600;}
+
 /* Footer section css End */
-@media only screen and (max-width:1023px) {
-   
-    .hero-section .hero-content h1 {
-            font-size: 30px;
-            line-height: 40px;
-    }
-     .hero-section .slick-next {
-        height: 20px;
-        right: 0;
-    }
-    .hero-section .slick-prev {
-        left: 0;
-        height: 20px;
-        left: 15px;
-    }
-    .sag-semen-stations-section .colum strong {
-        font-size: 20px;
-    }
-    
+@media only screen and (max-width:1023px){
+    .hero-section .hero-content h1{font-size:30px;line-height:40px;}
+    .hero-section .slick-next{height:20px;right:0;}
+    .hero-section .slick-prev{left:0;height:20px;left:15px;}
+    .sag-semen-stations-section .colum strong{font-size:20px;}
+    .footer-section{font-size:14px;}
 }
-@media only screen and (max-width:767px) {
-    body {
-        font-size: 14px;
-    }
-     .m-menu-btn { display: block; }
-    .header-nav { position: absolute; top: 100%; left: 0; right: 0; display: none; background-color: #0d8744; box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px; z-index: 9999; padding: 10px 0; }
-    .menu ul li:not(:last-child) { display: block; margin-right: 0px; }
-    .header-section .menu ul {
-        text-align: left;
-    }
-     .header-section .menu ul li {
-        margin-left: 0;
-     }
-    .menu ul li a { padding: 10px; }
-    .hero-section .hero-img {
-        height: 250px;
-    }
-    .hero-section .hero-content h1 {
-        font-size: 22px;
-        line-height: 30px;
-        margin-bottom: 10px;
-    }
-    .hero-section .hero-content p {
-        font-size: 16px;
-    }
-   
-    .sag-semen-stations-section .colum {
-        width: 50%;
-    }
-    .how-we-are-unique .row {
-        flex-direction: column-reverse;
-    }
-    .how-we-are-unique .row .img {
-        width: 100%;
-        padding-right: 0;
-    }
-    .how-we-are-unique .row .content {
-        width: 100%;
-    }
-    .how-we-are-unique .row .content h2 {
-        margin-bottom: 20px;
-    }
-    h2 {
-        font-size: 30px;
-    }
-    h3 {
-        font-size: 20px;
-    }
-    .about-us-section h4 {
-        font-size: 18px;
-    }
-    .about-us-section .superior-animal-genetics p {
-        font-size: 16px;
-    }
+@media only screen and (max-width:880px){
+    .footer-section .row{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;}
+    .footer-section .row .colum{margin:5px 0;text-align:center;}
+    .footer-section .row .colum:nth-child(2){order:3;}
+    .footer-section .row .colum:nth-child(3){order:2;}
 }
-@media only screen and (max-width:414px) { 
-.header-section .logo {
-    max-width: 115px;
+@media only screen and (max-width:767px){
+    body{font-size:14px;}
+    .m-menu-btn{display:block;}
+    .header-nav{position:absolute;top:100%;left:0;right:0;display:none;background-color:#0d8744;box-shadow:rgb(149 157 165 / 20%) 0px 8px 24px;z-index:9999;padding:10px 0;}
+    .menu ul li:not(:last-child){display:block;margin-right:0px;}
+    .header-section .menu ul{text-align:left;}
+    .header-section .menu ul li{margin-left:0;}
+    .menu ul li a{padding:10px;}
+    .hero-section .hero-img{height:250px;}
+    .hero-section .hero-content h1{font-size:22px;line-height:30px;margin-bottom:10px;}
+    .hero-section .hero-content p{font-size:16px;}
+    .sag-semen-stations-section .colum{width:50%;}
+    .how-we-are-unique .row{flex-direction:column-reverse;}
+    .how-we-are-unique .row .img{width:100%;padding-right:0;}
+    .how-we-are-unique .row .content{width:100%;}
+    .how-we-are-unique .row .content h2{margin-bottom:20px;}
+    h2{font-size:30px;}
+    h3{font-size:20px;}
+    .about-us-section h4{font-size:18px;}
+    .about-us-section .superior-animal-genetics p{font-size:16px;}
 }
+@media only screen and (max-width:414px){
+    .header-section .logo{max-width:115px;}
 }
