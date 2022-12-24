@@ -1,13 +1,12 @@
 @font-face{font-family:'Open Sans Regular';src:url('../fonts/OpenSans.eot');src:url('../fonts/OpenSans.eot?#iefix') format('embedded-opentype'),url('../fonts/OpenSans.woff2') format('woff2'),url('../fonts/OpenSans.woff') format('woff'),url('../fonts/OpenSans.ttf') format('truetype');font-weight:normal;font-style:normal;font-display:swap;}
 @font-face{font-family:'Open Sans Semibold';src:url('../fonts/OpenSans-Semibold.eot');src:url('../fonts/OpenSans-Semibold.eot?#iefix') format('embedded-opentype'),url('../fonts/OpenSans-Semibold.woff2') format('woff2'),url('../fonts/OpenSans-Semibold.woff') format('woff'),url('../fonts/OpenSans-Semibold.ttf') format('truetype');font-weight:600;font-style:normal;font-display:swap;}
 @font-face{font-family:'Open Sans Bold';src:url('../fonts/OpenSans-Bold.eot');src:url('../fonts/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),url('../fonts/OpenSans-Bold.woff2') format('woff2'),url('../fonts/OpenSans-Bold.woff') format('woff'),url('../fonts/OpenSans-Bold.ttf') format('truetype');font-weight:bold;font-style:normal;font-display:swap;}
-@font-face{font-family:'Montserrat Bold';src:url('../fonts/Montserrat-Bold.eot');src:url('../fonts/Montserrat-Bold.eot?#iefix') format('embedded-opentype'),url('../fonts/Montserrat-Bold.woff2') format('woff2'),url('../fonts/Montserrat-Bold.woff') format('woff'),url('../fonts/Montserrat-Bold.ttf') format('truetype');font-weight:bold;font-style:normal;font-display:swap;}
-@font-face{font-family:'Montserrat Regular';src:url('../fonts/Montserrat-Regular.eot');src:url('../fonts/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),url('../fonts/Montserrat-Regular.woff2') format('woff2'),url('../fonts/Montserrat-Regular.woff') format('woff'),url('../fonts/Montserrat-Regular.ttf') format('truetype');font-weight:normal;font-style:normal;font-display:swap;}
+
 *{margin:0;padding:0;-webkit-box-sizing:border-box;box-sizing:border-box;}
 
 /* html { scroll-behavior: smooth; } */
 body{font-family:'Open Sans Regular';font-size:16px;line-height:1.5;color:#000;font-weight:400;}
-h1,h2,h3,h4,h5,h6{font-family:'Montserrat Bold';font-weight:bold;}
+h1,h2,h3,h4,h5,h6{font-family:'Open Sans Regular';font-weight:bold;}
 h2{font-size:40px;margin-bottom:40px;}
 h3{font-size:26px;margin-bottom:15px;}
 p{font-family:'Open Sans Regular';font-weight:400;color:#000;margin-bottom:15px;}
@@ -73,7 +72,8 @@ ul{list-style:none;margin:0;padding:0;}
 .sag-semen-stations-section .colum .location-img{width:100%;margin-bottom:15px;position:relative;padding-bottom:56%;overflow:hidden;}
 .sag-semen-stations-section .colum .location-img img{height:100%;width:100%;position:absolute;left:0;right:0;top:0;bottom:0;}
 .sag-semen-stations-section .colum:hover img{-moz-transform:scale(1.1);-webkit-transform:scale(1.1);-o-transform:scale(1.1);-ms-transform:scale(1.1);transform:scale(1.1);}
-.sag-semen-stations-section .colum strong{color:#000;font-size:22px;display:block;margin-top:10px;font-weight:600;}
+.sag-semen-stations-section .colum p {margin: 0;}
+.sag-semen-stations-section .colum strong{color:#000;font-size:22px;display:block;font-weight:400;}
 .sag-semen-stations-section .colum:hover strong{color:#0d8744;}
 
 /* Sag Semen section css End */
@@ -93,12 +93,14 @@ ul{list-style:none;margin:0;padding:0;}
 .how-we-are-unique .row{-webkit-box-align:center;-ms-flex-align:center;align-items:center;}
 .how-we-are-unique .row .img{width:60%;padding-right:20px;}
 .how-we-are-unique .row .content{width:40%;}
+.how-we-are-unique .row .content h2 {margin-bottom: 10px; font-size: 30px;}
 
 /* How We Are Unique Section css Start */
 
 /* Our Locations section css Start */
 .our-locations-section{background-color:#fffdf6;}
 .our-locations-section span{font-weight:600;text-transform:uppercase;}
+.locations-map>img {max-width: 840px; width: 100%;}
 
 /* Our Locations section css End */
 
@@ -147,7 +149,7 @@ ul{list-style:none;margin:0;padding:0;}
     .how-we-are-unique .row{flex-direction:column-reverse;}
     .how-we-are-unique .row .img{width:100%;padding-right:0;}
     .how-we-are-unique .row .content{width:100%;}
-    .how-we-are-unique .row .content h2{margin-bottom:20px;}
+    .how-we-are-unique .row .content h2{font-size: 24px;}
     h2{font-size:30px;}
     h3{font-size:20px;}
     .about-us-section h4{font-size:18px;}
