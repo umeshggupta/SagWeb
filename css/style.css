@@ -98,9 +98,9 @@ ul{list-style:none;margin:0;padding:0;}
 /* How We Are Unique Section css Start */
 
 /* Our Locations section css Start */
-.our-locations-section{background-color:#fffdf6;}
+.our-locations-section{background-color:#fff;}
 .our-locations-section span{font-weight:600;text-transform:uppercase;}
-.locations-map>img {max-width: 700px; width: 100%;}
+.locations-map>img {max-width: 900px; width: 100%;}
 
 /* Our Locations section css End */
 
