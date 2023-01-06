@@ -54,8 +54,8 @@ ul{list-style:none;margin:0;padding:0;}
 .hero-section .hero-img > img{height:100%;width:100%;object-fit:cover;}
 .hero-section .hero-content{position:absolute;width:90%;max-width:1280px;padding:0 15px;text-align:center;left:50%;top:50%;-moz-transform:translateX(-50%) translateY(-50%);-webkit-transform:translateX(-50%) translateY(-50%);-o-transform:translateX(-50%) translateY(-50%);-ms-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);}
 .hero-section .hero-content .content{text-align:left;max-width:600px;}
-.hero-section .hero-content h1{font-size:50px;color:#fff;font-weight:700;line-height:60px;margin-bottom:15px;}
-.hero-section .hero-content p{font-size:20px;color:#fff;font-weight:600;}
+.hero-section .hero-content h1{font-size:50px;color:#000;font-weight:700;line-height:60px;margin-bottom:15px;}
+.hero-section .hero-content p{font-size:20px;color:#000;font-weight:600;}
 .slick-initialized .slick-slide,.slick-list{position:relative;}
 .hero-section .slick-dots{bottom:25px;}
 .hero-section .slick-dots li button:before{font-size:40px;color:#fff;opacity:1;}
